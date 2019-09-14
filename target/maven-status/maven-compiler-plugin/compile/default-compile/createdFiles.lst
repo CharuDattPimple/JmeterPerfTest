@@ -1,0 +1,16 @@
+com/openWeatherMap/service/LocalAccountProvider.class
+com/openWeatherMap/api/Message.class
+com/openWeatherMap/cache/RemoteAccountCache.class
+com/openWeatherMap/api/EndpointsCommon.class
+com/openWeatherMap/service/MicroserviceModule$1.class
+com/openWeatherMap/guice/EntityRegistrarModule.class
+com/openWeatherMap/api/EndpointsApiProfile.class
+com/openWeatherMap/guice/GuiceInjectorListener.class
+com/openWeatherMap/service/MicroserviceModule$JsonLongSerializer.class
+com/openWeatherMap/guice/EntityRegistrarModule$Entities.class
+com/openWeatherMap/api/MessageEndpoint.class
+com/openWeatherMap/service/MicroserviceModule.class
+com/openWeatherMap/cache/AbstractLocalResourceProvider.class
+com/openWeatherMap/service/model/LocalAccountProviderImpl.class
+com/openWeatherMap/service/model/LocalAccount.class
+com/openWeatherMap/guice/EndpointsInitialization.class

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>JmeterPerfTest</artifactId>
+    <groupId>com.openWeatherMap</groupId>
+    <version>1.0.0</version>
+    <packaging>war</packaging>
+    <name>TurnOnline.biz Ecosystem Microservice</name>
+    <description>TurnOnline.biz Ecosystem: Cloud Toolkit Microservice based on the Google Cloud Endpoints Frameworks (REST)
+        for Google App Engine Java 1.8 standard environment.</description>
+    <url>https://1.0-dot-Jmeter.appspot.com/api/explorer</url>
+
+
+    <profiles>
+        <profile>
+        <id>local</id>
+        <activation>
+        <!-- this profile is active by default -->
+            <activeByDefault>true</activeByDefault>
+        <!-- activate if system properties 'env=dev' -->
+            <property>
+                <name>env</name>
+                <value>fat</value>
+            </property>
+        </activation>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>com.lazerycode.jmeter</groupId>
+                    <artifactId>jmeter-maven-plugin</artifactId>
+                    <version>2.9.0</version>
+                    <executions>
+                        <execution>
+                            <id>jmeter-tests</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>jmeter</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <resultsFileFormat>xml</resultsFileFormat>
+                        <propertiesUser>
+                            <hostname>${test.hostname}</hostname>
+                            <env>${test.env}</env>
+                        </propertiesUser>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+        <properties>
+            <test.hostname>st-api.corp.pru.co.uk</test.hostname>
+            <test.env>local</test.env>
+        </properties>
+    </profile>
+    </profiles>
+
+
+
+
+
+
+
+</project>

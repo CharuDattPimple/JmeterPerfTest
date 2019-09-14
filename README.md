@@ -20,29 +20,13 @@ This should be used only for script development. Open the CX-App.jmx file in jme
 
 You should use the below command in actual  perf test run:
 
-./jmeter.sh -t CX-App.jmx -n  -l <Resultfile.csv>
+
 
 
 ## 3. Running with Maven
 
 If you have maven installed , running is pretty easy. You will need to run the below command:
 
-This will run on your location machine:
-~~~~
- mvn -Plocal verify
-~~~~
-
-On FAT, on Azure Pipelines
-
-~~~
- mvn -Pfat verify
-~~~
- 
-On SIT, on Azure Pipelines
-
-~~~
- mvn -Psit verify
-~~~
 
 ## 4. Azure Pipelines
 

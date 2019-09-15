@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1568559468175,465,find Flights,200,OK,BlazeDemo 3-1,text,true,,11146,242,3,8,http://blazedemo.com/reserve.php,464,0,312
+1568559468390,266,find Flights,200,OK,BlazeDemo 3-2,text,true,,11137,241,3,8,http://blazedemo.com/reserve.php,259,0,124
+1568559468644,138,purchase,200,OK,BlazeDemo 3-1,text,true,,10534,279,3,9,http://blazedemo.com/purchase.php,138,0,0
+1568559468656,148,purchase,200,OK,BlazeDemo 3-2,text,true,,10533,278,3,9,http://blazedemo.com/purchase.php,141,0,0
+1568559468640,277,find Flights,200,OK,BlazeDemo 3-3,text,true,,11162,244,4,11,http://blazedemo.com/reserve.php,267,0,126
+1568559468783,141,confirmation,200,OK,BlazeDemo 3-1,text,true,,9579,417,4,11,http://blazedemo.com/confirmation.php,140,0,0
+1568559468805,144,confirmation,200,OK,BlazeDemo 3-2,text,true,,9577,417,3,11,http://blazedemo.com/confirmation.php,138,0,0
+1568559468918,161,purchase,200,OK,BlazeDemo 3-3,text,true,,10536,281,2,10,http://blazedemo.com/purchase.php,139,0,0
+1568559468886,404,find Flights,200,OK,BlazeDemo 3-4,text,true,,11145,242,2,11,http://blazedemo.com/reserve.php,360,0,124
+1568559468175,1132,verify user land on login page,200,OK,Login 1-1,text,true,,18364,141,4,11,https://home.openweathermap.org/users/sign_in/,1130,0,684
+1568559469080,299,confirmation,200,OK,BlazeDemo 3-3,text,true,,9577,433,2,11,http://blazedemo.com/confirmation.php,251,0,0
+1568559468481,905,verify user land on login page,200,OK,Login 1-2,text,true,,18364,141,4,10,https://home.openweathermap.org/users/sign_in/,901,0,425
+1568559468342,1150,search,200,OK,search city 2-2,text,true,,21380,135,5,10,https://openweathermap.org/find?q=Mumbai,1133,0,504
+1568559468175,1348,search,200,OK,search city 2-1,text,true,,21380,135,4,9,https://openweathermap.org/find?q=Nagpur,1333,0,671
+1568559469291,279,purchase,200,OK,BlazeDemo 3-4,text,true,,10534,279,1,8,http://blazedemo.com/purchase.php,238,0,0
+1568559469309,262,verify logged in,422,Unprocessable Entity,Login 1-1,text,false,Test failed: text expected to contain /Signed in successfully./,1801,521,4,8,https://home.openweathermap.org/users/sign_in,262,0,0
+1568559469386,265,verify logged in,422,Unprocessable Entity,Login 1-2,text,false,Test failed: text expected to contain /Signed in successfully./,1801,521,3,7,https://home.openweathermap.org/users/sign_in,265,0,0
+1568559468538,1131,search,200,OK,search city 2-3,text,true,,21375,134,3,6,https://openweathermap.org/find?q=Delhi,1108,0,413
+1568559469571,184,confirmation,200,OK,BlazeDemo 3-4,text,true,,9577,419,1,6,http://blazedemo.com/confirmation.php,145,0,0
+1568559468736,1022,search,200,OK,search city 2-4,text,true,,21379,136,2,5,https://openweathermap.org/find?q=NewYork,969,0,456
+1568559468881,1075,verify user land on login page,200,OK,Login 1-3,text,true,,18364,141,3,4,https://home.openweathermap.org/users/sign_in/,1074,0,756
+1568559468936,1155,search,200,OK,search city 2-5,text,true,,21355,135,1,4,https://openweathermap.org/find?q=London,1155,0,706
+1568559469956,163,verify logged in,422,Unprocessable Entity,Login 1-3,text,false,Test failed: text expected to contain /Signed in successfully./,1801,521,3,3,https://home.openweathermap.org/users/sign_in,163,0,0
+1568559469280,849,verify user land on login page,200,OK,Login 1-4,text,true,,18364,141,2,2,https://home.openweathermap.org/users/sign_in/,848,0,552
+1568559470129,148,verify logged in,422,Unprocessable Entity,Login 1-4,text,false,Test failed: text expected to contain /Signed in successfully./,1801,521,2,2,https://home.openweathermap.org/users/sign_in,148,0,0
+1568559469682,717,verify user land on login page,200,OK,Login 1-5,text,true,,18364,141,1,1,https://home.openweathermap.org/users/sign_in/,717,0,424
+1568559470400,145,verify logged in,422,Unprocessable Entity,Login 1-5,text,false,Test failed: text expected to contain /Signed in successfully./,1801,521,1,1,https://home.openweathermap.org/users/sign_in,144,0,0

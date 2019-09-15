@@ -20,7 +20,7 @@ This should be used only for script development. Open the CX-App.jmx file in jme
 
 You should use the below command in actual  perf test run:
 
-
+./jmeter.sh -n -t weatherMapAndBlazeDemo.jmx  -l htmlReports.csv -e -o /htmlReports -f
 
 
 ## 3. Running with Maven

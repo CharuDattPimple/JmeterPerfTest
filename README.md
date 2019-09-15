@@ -1,6 +1,5 @@
-# CX Performance Test Scripts #
+# Performance Test Scripts #
 
-### The repo for JMeter Scripts for the CX App ###
 
 ## How to Run this script ##
 
@@ -8,13 +7,13 @@ You will need Apache Jmeter Binary to installed on your system
 
 [Download Link ](https://archive.apache.org/dist/jmeter/binaries/)
 
-There are two ways to run the script CX-App.jmx 
+There are two ways to run the script
 
 ## 1. GUI (Not the recommended way) ##
 
 After you unzip the JMeter zip file, go to the bin directory and open jmeter.sh file (mac or linux) or jmeter.bat (windows).
 
-This should be used only for script development. Open the CX-App.jmx file in jmeter. Click on the Green Arrow button at the top.
+This should be used only for script development. Open the .jmx file in jmeter. Click on the Green Arrow button at the top.
 
 ## 2. Non-GUI mode ##
 

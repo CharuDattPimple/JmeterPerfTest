@@ -1,6 +1,11 @@
 # Maven
 - task: Bash@3
   inputs:
+    filePath: 'JmeterPerfTest/src/test/htmlReports/htmlReports.csv'
+    arguments: 'sh /jmeter.sh jmeterPerfTest/src/test/htmlReports/htmlReports.csv -e -o /htmlReports -f'
+    workingDirectory: 'JmeterPerfTest'
+- task: Bash@3
+  inputs:
     filePath: '/JmeterPerfTest/src/test/jmeter/weatherMapAndBlazeDemo.jmx'
     arguments: 'sh jmeter.sh -n -t /JmeterPerfTest/src/test/jmeter/weatherMapAndBlazeDemo.jmx'
     workingDirectory: 'JmeterPerfTest'
